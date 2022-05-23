@@ -8,9 +8,13 @@ function TinderCards() {
     // const people = [];
     // people.push("sonny", "qazi")
 
-    // setPeople([...people, "sonny", "qazi"])
+    // Push to an array in React
+    // setPeople([...people, "sonny", "qazi"])d
 
+    // Piece of code which runs based on a condition
     useEffect(() => {
+      // this is where the code runs
+      
       database
       .collection('people')
       .onSnapshot((snapshot) => 
@@ -20,20 +24,19 @@ function TinderCards() {
 
   return (
     <div>
-      <h1>Tinder Cards</h1>
       <div className='tinderCards__cardContainer'>
           {people.map(person => (
             <TinderCard
-            className="swipe"
-            key={person.name}
-            preventSwipe={['up', 'down']}
-      >
-            <div 
-              style={{ backgroundImage: 'url(${person.url})' }}
-              className="card"
+              className="swipe"
+              key={person.name}
+              preventSwipe={['up', 'down']}
             >
-              <h3>{person.name}</h3>
-            </div>
+              <div
+                style={{ backgroundImage: `url(${person.url})` }}
+                className="card"
+              >
+                <h3>{person.name}</h3>
+              </div>
             </TinderCard>
           ))}
       </div>
