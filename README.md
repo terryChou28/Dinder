@@ -1,3 +1,11 @@
+# Dinder Web App
+Dating app for developers.
+
+## What will the application do?
+
+![add](memo1.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
