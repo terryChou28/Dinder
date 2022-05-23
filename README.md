@@ -3,7 +3,7 @@ Dating app for developers.
 
 ## What will the application do?
 
-![add](memo1.gif)
+![add](dinder.gif)
 
 
 # Getting Started with Create React App
