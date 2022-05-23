@@ -14,12 +14,17 @@ function TinderCards() {
     // Piece of code which runs based on a condition
     useEffect(() => {
       // this is where the code runs
-      
-      database
+
+      const unsubscribe = database
       .collection('people')
       .onSnapshot((snapshot) => 
         setPeople(snapshot.docs.map((doc) => doc.data()))
       );
+
+      return () => {
+        // this is clearnup
+        unsubscribe();
+      };
     }, []);
 
   return (
