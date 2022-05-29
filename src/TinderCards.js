@@ -16,10 +16,10 @@ function TinderCards() {
       // this is where the code runs
 
       const unsubscribe = database
-      .collection('people')
-      .onSnapshot((snapshot) => 
-        setPeople(snapshot.docs.map((doc) => doc.data()))
-      );
+        .collection('people')
+        .onSnapshot((snapshot) => 
+          setPeople(snapshot.docs.map((doc) => doc.data()))
+        );
 
       return () => {
         // this is clearnup
