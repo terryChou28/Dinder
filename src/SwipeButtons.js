@@ -12,13 +12,21 @@ import "./SwipeButtons.css";
 const SwipeButtons = () => {
   return (
     <div className="swipeButtons">
-        <IconButton>
+        <IconButton className="swipeButtons__repeat">
             <ReplayIcon fontSize="large" />
         </IconButton>
-        <CloseIcon fontSize="large" />
-        <StarRateIcon fontSize="large" />
-        <FavoriteIcon fontSize="large" />
-        <FlashOnIcon fontSize="large" />
+        <IconButton className="swipeButtons__left">
+            <CloseIcon fontSize="large" />
+        </IconButton>
+        <IconButton className="swipeButtons__star">
+            <StarRateIcon fontSize="large" />
+        </IconButton>
+        <IconButton className="swipeButtons__right">
+            <FavoriteIcon fontSize="large" />
+        </IconButton>
+        <IconButton className="swipeButtons__lightning">
+            <FlashOnIcon fontSize="large" />
+        </IconButton>
     </div>
   );
 };
