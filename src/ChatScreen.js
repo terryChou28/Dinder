@@ -8,13 +8,13 @@ function ChatScreen() {
     {
       name: "Ellen",
       image:
-        "https://profile-images.xing.com/images/8a5c3a56f55741fabf8911d38469b737-5/nicole-distler.1024x1024.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Tl2HFA50kmybMKgD6FteYIPq6DUzRQMGji69NxeDutAcpPwfqRV_iruYGfU40zXD9pU&usqp=CAU",
       message: "Whats up 💌",
     },
     {
       name: "Ellen",
       image:
-        "https://instagram.ftpe8-2.fna.fbcdn.net/v/t51.2885-15/295070132_592058892505800_2044996711582026705_n.jpg?stp=dst-jpg_e15_p480x480&_nc_ht=instagram.ftpe8-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=wkbtZwoCaCYAX8sMmlP&edm=ANmP7GQBAAAA&ccb=7-5&ig_cache_key=Mjg4ODYyNzg0MTIwNzk3NzI4OQ%3D%3D.2-ccb7-5&oh=00_AT8mIJUjpOhsziyvHfI4KV2gTSBNwWXw0ExuEC7Zkf5JGg&oe=62DF05D0&_nc_sid=276363",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Tl2HFA50kmybMKgD6FteYIPq6DUzRQMGji69NxeDutAcpPwfqRV_iruYGfU40zXD9pU&usqp=CAU",
       message: "Hows it going!",
     },
     {
